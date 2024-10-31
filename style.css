@@ -1,10 +1,10 @@
 :root {
     --fundo: #F5F5DC;
     --cor-frente: #000000;
-    --cor-verso: #16463b;
-    --destaque: #808000;
+    --cor-verso: #184616;
+    --destaque: #ffffff;
     --preto: #000000;
-    --branco: #ffffff;
+    --branco: #e3e3e3;
 }
 
 body {
