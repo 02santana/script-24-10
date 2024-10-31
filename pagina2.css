@@ -1,7 +1,7 @@
 :root {
     --fundo: #F5F5DC;
-    --cor-frente: #000000;
-    --cor-verso: #16463b;
+    --cor-frente: #BDB76B;
+    --cor-verso: #556B2F;
     --destaque: #808000;
     --preto: #000000;
     --branco: #ffffff;
@@ -12,15 +12,15 @@ body {
     margin: 0;
 }
 
-header{
-    background-color: rgb(13, 30, 8);
+header {
+    background-color: var(--preto);
     padding: 40px;
     display: flex;
     justify-content: space-around;
 }
 
-header a{
-    color:#ffffff
+header a {
+    color: var(--branco);
 }
 
 footer {
@@ -30,4 +30,22 @@ footer {
     color: var(--branco);
     width: 100%;
     text-align: center;
+}
+
+#container{
+    padding: 2rem;
+    display: grid;
+    gap: 4rem;
+}
+
+.cartao{
+    background-color: var(--cor-frente);
+    color: var(--branco);
+    padding: 40px;
+    box-shadow: 5px 5px 23px var(--preto);
+    cursor: pointer;
+}
+
+.cartao:hover{
+    transform: scale(1.04);
 }
