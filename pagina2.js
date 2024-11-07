@@ -1,6 +1,6 @@
 function criacartao(categoria, pergunta, resposta) {
 
-        <div class="conteudo-cartao" onclick - "mostraResposta" >
+        <div class="conteudo-cartao" onclick = "mostraResposta" >
        <><h3>${categoria}</h3><div class="pergunta-cartao">
                 <p>${pergunta}</p>
             </div><div class="resposta-cartao">
