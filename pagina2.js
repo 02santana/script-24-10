@@ -1,13 +1,11 @@
 function criacartao(categoria, pergunta, resposta) {
 
         <div class="conteudo-cartao" onclick - "mostraResposta" >
-       <h3>${categoria}</h3>
-    <div class="pergunta-cartao">
-        <p>${pergunta}</p>
-    </div>
-    <div class="resposta-cartao">
-        <p>${resposta}</p>
-    </div>
+       <><h3>${categoria}</h3><div class="pergunta-cartao">
+                <p>${pergunta}</p>
+            </div><div class="resposta-cartao">
+                    <p>${resposta}</p>
+                </div></>
 </div>
     
     container.appendChild(cartao);
@@ -20,3 +18,5 @@ function criacartao(categoria, pergunta, resposta) {
     else{
         resposta.style.display = 'none'
     }
+
+}
